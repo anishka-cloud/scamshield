@@ -20,7 +20,7 @@ export default function Home() {
                 d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
               />
             </svg>
-            <span className="text-lg font-bold text-white">ScamShield</span>
+            <span className="text-lg font-bold text-white">Scam or Not</span>
           </div>
           <span className="text-xs text-slate-500">Free Scam Checker</span>
         </div>
@@ -46,12 +46,12 @@ export default function Home() {
       <footer className="border-t border-slate-800/50 py-8">
         <div className="max-w-3xl mx-auto px-4 text-center text-xs text-slate-600">
           <p>
-            ScamShield uses pattern matching to detect common scam indicators.
+            Scam or Not uses pattern matching to detect common scam indicators.
             It is not a substitute for professional advice. Always verify
             suspicious communications independently.
           </p>
           <p className="mt-2">
-            &copy; {new Date().getFullYear()} ScamShield. All rights reserved.
+            &copy; {new Date().getFullYear()} Scam or Not. All rights reserved.
           </p>
         </div>
       </footer>
@@ -66,26 +66,26 @@ export default function Home() {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "What types of scams can ScamShield detect?",
+                name: "What types of scams can Scam or Not detect?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "ScamShield detects 18+ categories including phishing emails, romance scams, rental scams, job scams, crypto/investment scams, government impersonation, brand impersonation, marketplace scams, advance fee fraud, data harvesting, and more.",
+                  text: "Scam or Not detects 18+ categories including phishing emails, romance scams, rental scams, job scams, crypto/investment scams, government impersonation, brand impersonation, marketplace scams, advance fee fraud, data harvesting, and more.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Is ScamShield free to use?",
+                name: "Is Scam or Not free to use?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, ScamShield is completely free. Paste any suspicious message and get an instant risk analysis with specific red flags identified.",
+                  text: "Yes, Scam or Not is completely free. Paste any suspicious message and get an instant risk analysis with specific red flags identified.",
                 },
               },
               {
                 "@type": "Question",
-                name: "How does ScamShield analyze messages?",
+                name: "How does Scam or Not analyze messages?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "ScamShield uses pattern matching against 18+ scam categories, each with a severity weight. It identifies specific red flags, calculates a risk score from 0-100, and provides actionable advice.",
+                  text: "Scam or Not uses pattern matching against 18+ scam categories, each with a severity weight. It identifies specific red flags, calculates a risk score from 0-100, and provides actionable advice.",
                 },
               },
             ],

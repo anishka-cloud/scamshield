@@ -13,18 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Is This a Scam? Free Scam Checker — ScamShield",
+  title: "Is This a Scam? Free Scam Checker — Scam or Not",
   description:
     "Paste any suspicious email, text, DM, or listing. Get an instant scam risk analysis with specific red flags and a shareable safety score.",
   openGraph: {
-    title: "Is This a Scam? Free Scam Checker — ScamShield",
+    title: "Is This a Scam? Free Scam Checker — Scam or Not",
     description:
       "Paste any suspicious email, text, DM, or listing. Get an instant scam risk analysis with specific red flags and a shareable safety score.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Is This a Scam? Free Scam Checker — ScamShield",
+    title: "Is This a Scam? Free Scam Checker — Scam or Not",
     description:
       "Paste any suspicious email, text, DM, or listing. Get an instant scam risk analysis with specific red flags and a shareable safety score.",
   },

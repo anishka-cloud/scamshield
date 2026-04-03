@@ -20,7 +20,7 @@ const verdictBg = {
 export default function ShareCard({ result }: { result: AnalysisResult }) {
   const [copied, setCopied] = useState(false);
 
-  const shareText = `I just checked a suspicious message with ScamShield — it scored ${result.score}/100 risk. Check yours free!`;
+  const shareText = `I just checked a suspicious message with Scam or Not — it scored ${result.score}/100 risk. Check yours free → scamornot.app`;
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(shareText);
@@ -34,7 +34,7 @@ export default function ShareCard({ result }: { result: AnalysisResult }) {
         className={`bg-gradient-to-br ${verdictBg[result.verdict]} border rounded-2xl p-6 text-center`}
       >
         <div className="text-xs uppercase tracking-widest text-slate-400 mb-3">
-          ScamShield Analysis
+          Scam or Not Analysis
         </div>
         <div className="text-5xl font-bold text-white mb-1">{result.score}</div>
         <div className="text-sm text-slate-400 mb-3">/ 100 risk score</div>
